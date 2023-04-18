@@ -4,12 +4,13 @@
   margin: 0 auto;
 }
 .header{
+  position: relative;
   width: 400px;
   height: 100px;
   background-color: #ff0000;
 }
 .header-sikaku{
-  position: relative;
+  position: absolute;
   float: right;
   top: 20px;
   right: 20px;
@@ -44,13 +45,14 @@
   background-color: #00ff51;
 }
 .content{
+  position: relative;
   float: left;
   width: 250px;
   height: 250px;
   background-color: #8c2727;
 }
 .boxs{
-  position: relative;
+  position: absolute;
   top: 40px;
   left: 40px;
 }
